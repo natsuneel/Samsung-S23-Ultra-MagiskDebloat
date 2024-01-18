@@ -41,6 +41,7 @@ if $VKSEL; then
 		/system/app/SmartSwitchStub
 		/system/app/ESEServiceAgent
 		/system/app/Rampart
+		/system/app/DAAgent
 
 		/system/hidden/
 
@@ -86,7 +87,10 @@ if $VKSEL; then
 		/system/priv-app/KPECore
 		/system/priv-app/SKMSAgentService
 		/system/priv-app/SecAppSeparation
-
+		/system/priv-app/SOAgent7
+		/system/priv-app/NetworkDiagnostic
+		/system/priv-app/SamsungAccount
+		/system/priv-app/SecMyFiles2020
 
 
 		/prism/priv-app

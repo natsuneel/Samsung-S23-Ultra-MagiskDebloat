@@ -1,0 +1,9 @@
+v1.0.0
+Initial Commit
+
+v1.0.1
+-Debaloat System software updater /system/priv-app/SOAgent7
+-Debloat Dual messenger /system/app/DAAgent
+-Debloat Network diagnostic /system/priv-app/NetworkDiagnostic
+-Debloat Samsung Account  /system/priv-app/SamsungAccount --causes edge and gooddlock crash
+-Debload Myfiles  /system/priv-app/SecMyFiles2020
