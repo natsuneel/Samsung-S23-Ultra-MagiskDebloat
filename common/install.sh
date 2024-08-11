@@ -4,9 +4,7 @@ ui_print "*       EAGLE DEBLOAT MODULE         *"
 ui_print "    Debloater for S23 Series A14     "
 ui_print "                                     "
 ui_print " Credits :                           "
-ui_print " analytics script by foobar66        "
 ui_print " template by Zackptg5 @ XDA          "
-ui_print " Adguard for ca-certification        "
 ui_print "-------------------------------------"
 sleep 0.7
 ui_print " "
@@ -131,7 +129,7 @@ ui_print " "
 ui_print " "
 	ui_print "############################################################"
 	ui_print " "
-    ui_print " Debloat Google,Microsoft,Fb Apps"
+    ui_print " Debloat Google,Fb Apps"
     ui_print " Vol+ = Yes / Vol- = No "
 	ui_print " "
 	ui_print "############################################################"
@@ -160,7 +158,7 @@ ui_print " "
 
 		/system/system_ext/priv-app/GoogleFeedback
 		"
-		ui_print " Done Debloat Google,Microsoft,Fb Apps"
+		ui_print " Done Debloat Google,Fb Apps"
 		sleep 1
 	else
 	ui_print " "
