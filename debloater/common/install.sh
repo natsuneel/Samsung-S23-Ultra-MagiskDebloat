@@ -21,14 +21,11 @@ if $VKSEL; then
 		REPLACE="$REPLACE
 		/system/app/WebManual
 		/system/app/KidsHome_Installer
-		/system/app/SamsungTTS
 		/system/app/SamsungCalendar
 		/system/app/HoneyBoard
 		/system/app/GearManagerStub
 		/system/app/SmartReminder
 		/system/app/MdecService
-		/system/app/AllShareAware
-		/system/app/MdxKitService
 		/system/app/MAPSAgent
 		/system/app/BBCAgent
 		/system/app/LiveTranscribe
@@ -41,8 +38,7 @@ if $VKSEL; then
 		/system/app/SmartSwitchStub
 		/system/app/ESEServiceAgent
 		/system/app/Rampart
-		/system/app/DAAgent
-
+		/system/app/ParentalCare
 		/system/hidden/
 
 		/system/priv-app/SamsungBilling
@@ -61,12 +57,9 @@ if $VKSEL; then
 		/system/priv-app/RubinVersion34
 		/system/priv-app/Fmm
 		/system/priv-app/SCPMAgent
-		/system/priv-app/ShareLive
-		/system/priv-app/EasySetup
 		/system/priv-app/SamsungMultiConnectivity
 		/system/priv-app/MCFDeviceSync
 		/system/priv-app/SamsungSmartSuggestions
-		/system/priv-app/BeaconManager
 		/system/priv-app/DigitalKey
 		/system/priv-app/FotaAgent
 		/system/priv-app/GalaxyBetaService
@@ -89,9 +82,15 @@ if $VKSEL; then
 		/system/priv-app/SecAppSeparation
 		/system/priv-app/SOAgent7
 		/system/priv-app/NetworkDiagnostic
-		/system/priv-app/SamsungAccount
-		/system/priv-app/SecMyFiles2020
-
+		/system/priv-app/GameOptimizingService
+		/system/priv-app/GameTools_Dream
+		/system/priv-app/HWResourceShare
+		/system/priv-app/EasySetup
+		/system/priv-app/BeaconManager
+		/system/priv-app/AREmojiEditor
+		/system/priv-app/AREmoji
+		/system/priv-app/AvatarEmojiSticker
+		/system/priv-app/TalkbackSE
 
 		/prism/priv-app
 		/prism/app
@@ -142,8 +141,6 @@ ui_print " "
 		/system/app/VoiceAccess
 		/system/app/FBAppManager_NS
 
-		/system/priv-app/YourPhone_P1_5
-		/system/priv-app/LinkToWindowsService
 		/system/priv-app/FBInstaller_NS
 		/system/priv-app/FBServices
 		/system/priv-app/OneDrive_Samsung_v3
@@ -152,13 +149,12 @@ ui_print " "
 		/system/product/app/Gmail2
 		/system/product/app/YouTube
 		/system/product/app/DuoStub
+		/system/product/app/AssistantShell
 
 
 		/system/product/app/GoogleLocationHistory
 
 		/system/product/priv-app/GoogleRestore
-		/system/product/priv-app/HotwordEnrollmentOKGoogleEx4HEXAGON
-		/system/product/priv-app/HotwordEnrollmentXGoogleEx4HEXAGON
 		/system/product/priv-app/FamilyLinkParentalControls
 		/system/product/priv-app/Messages
 

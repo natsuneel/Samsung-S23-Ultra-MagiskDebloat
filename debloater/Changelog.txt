@@ -7,3 +7,23 @@ v1.0.1
 -Debloat Network diagnostic /system/priv-app/NetworkDiagnostic
 -Debloat Samsung Account  /system/priv-app/SamsungAccount --causes edge and gooddlock crash
 -Debload Myfiles  /system/priv-app/SecMyFiles2020
+
+v1.0.2
+-Debload Smart view /system/app/SmartMirroring
+-Debloat NearbyShare service by samsung /system/app/AllshareMediaService
+
+v1.0.3
+-Debloat Dual messenger /system/app/DAAgent
+-Debload samsung tts /system/app/SamsungTTS
+-Debloat Samsung game optimization service 
+	/system/priv-app/GameOptmizingService
+	/system/app/GameTools_Dream
+
+v1.0.4
+-Removed Linkto Windows app from debloat list
+-Removed Allmediashare, smartview from the debloat list
+-Debloat AR emoji, Talkback
+		/system/priv-app/AREmojiEditor
+		/system/priv-app/AREmoji
+		/system/priv-app/AvatarEmojiSticker
+		/system/priv-app/TalkbackSE
