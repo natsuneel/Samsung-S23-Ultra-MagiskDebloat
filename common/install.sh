@@ -37,6 +37,21 @@ if $VKSEL; then
 		/system/app/ESEServiceAgent
 		/system/app/Rampart
 		/system/app/ParentalCare
+		/system/app/ccinfo
+		/system/app/SamsungTTSVoice_de_DE_f00
+		/system/app/SamsungTTSVoice_it_IT_f00
+		/system/app/SamsungTTSVoice_pt_BR_f00
+		/system/app/SamsungTTSVoice_vi_VN_f00
+		/system/app/SamsungTTSVoice_en_GB_f00
+		/system/app/SamsungTTSVoice_es_ES_f00
+		/system/app/SamsungTTSVoice_es_MX_f00
+		/system/app/SamsungTTSVoice_en_US_l00
+		/system/app/SamsungTTSVoice_es_US_f00
+		/system/app/SamsungTTSVoice_fr_FR_f00
+		/system/app/SamsungTTSVoice_it_IT_f00
+		/system/app/SamsungTTSVoice_th_TH_f00
+		/system/app/SamsungTTSVoice_ru_RU_f00
+		/system/app/SamsungTTSVoice_pl_PL_f00
 		/system/hidden/
 
 		/system/priv-app/SamsungBilling
@@ -89,9 +104,11 @@ if $VKSEL; then
 		/system/priv-app/AREmoji
 		/system/priv-app/AvatarEmojiSticker
 		/system/priv-app/TalkbackSE
-
-		/prism/priv-app
+		/system/priv-app/SmartManager_v6_DeviceSecurity
+		/system/priv-app/ThemeStore
+		/system/priv-app/KLMSAgent
 		/prism/app
+		/prism/priv-app
 		
 		"
 		ui_print " Done Debloat Samsung Apps"
@@ -129,7 +146,7 @@ ui_print " "
 ui_print " "
 	ui_print "############################################################"
 	ui_print " "
-    ui_print " Debloat Google,Fb Apps"
+    ui_print " Debloat Google,Fb Apps, Microsoft"
     ui_print " Vol+ = Yes / Vol- = No "
 	ui_print " "
 	ui_print "############################################################"
@@ -142,6 +159,8 @@ ui_print " "
 		/system/priv-app/FBInstaller_NS
 		/system/priv-app/FBServices
 		/system/priv-app/OneDrive_Samsung_v3
+		/system/priv-app/YourPhone_P1_5
+		/system/priv-app/LinkToWindowsService
 
 		/system/product/app/Chrome		
 		/system/product/app/Gmail2
@@ -158,7 +177,7 @@ ui_print " "
 
 		/system/system_ext/priv-app/GoogleFeedback
 		"
-		ui_print " Done Debloat Google,Fb Apps"
+		ui_print " Done Debloat Google,Fb Apps, Microsoft"
 		sleep 1
 	else
 	ui_print " "

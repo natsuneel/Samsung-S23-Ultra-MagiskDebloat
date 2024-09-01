@@ -27,3 +27,7 @@ v1.0.4
 		/system/priv-app/AREmoji
 		/system/priv-app/AvatarEmojiSticker
 		/system/priv-app/TalkbackSE
+
+v1.05
+-Debloat All Samsung language packs
+-Debloat Samsung theme
