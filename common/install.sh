@@ -46,6 +46,7 @@ if $VKSEL; then
 		/system/app/SamsungTTSVoice_es_ES_f00
 		/system/app/SamsungTTSVoice_es_MX_f00
 		/system/app/SamsungTTSVoice_en_US_l00
+		/system/app/SamsungTTSVoice_en_US_l03
 		/system/app/SamsungTTSVoice_es_US_f00
 		/system/app/SamsungTTSVoice_fr_FR_f00
 		/system/app/SamsungTTSVoice_it_IT_f00
@@ -67,7 +68,7 @@ if $VKSEL; then
 		/system/priv-app/AirReadingGlass
 		/system/priv-app/GameHome
 		/system/priv-app/SamsungCloudClient
-		/system/priv-app/RubinVersion34
+		/system/priv-app/RubinVersion35
 		/system/priv-app/Fmm
 		/system/priv-app/SCPMAgent
 		/system/priv-app/SamsungMultiConnectivity

@@ -31,3 +31,6 @@ v1.0.4
 v1.05
 -Debloat All Samsung language packs
 -Debloat Samsung theme
+
+v1.06
+-/system/priv-app/RubinVersion35
